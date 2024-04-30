@@ -1,5 +1,6 @@
 import random
 
+guess_select = int(input("Select guess: "))
 def computer_guess(x):
     low = 1
     high = x
